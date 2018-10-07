@@ -1,0 +1,123 @@
+body, html{
+  background-color: #E3E3E3;
+  font-family: 'Mukta', sans-serif;
+}
+
+h1{
+  text-align: center;
+  font-size: 60px;
+  font-weight: bolder;
+}
+
+h2{
+  text-align: center;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.title {
+border-style: double;
+border-width: 5px;
+border-color: black;
+width: 40%;
+margin-left: 30%;
+margin-right: auto;
+}
+.row {
+height: 500px;
+}
+.coding {
+  float: left;
+  width: 40%;
+  margin-left: 5%;
+  margin-top: 2%;
+}
+.codingText{
+  width: 50%;
+  margin-top: 2%;
+  float: right;
+  font-weight: bolder;
+}
+.descriptionText h3{
+  text-align: center;
+  font-size: 30px;
+}
+.descriptionText p{
+  text-align: center;
+}
+.textLeft{
+  display: inline-block;
+  width: 50%;
+  margin-top: 5%;
+  float: left;
+  font-weight: bolder;
+}
+.imageRight {
+  display: inline-block;
+  float: right;
+  width: 40%;
+  margin-right: 5%;
+  margin-top: 5%;
+}
+
+.teamwork {
+  float: left;
+  width: 40%;
+  margin-left: 5%;
+  margin-top: 2%;
+}
+.teamworkText{
+  width: 50%;
+  margin-top: 2%;
+  float: right;
+  font-weight: bolder;
+}
+
+.socialIcons {
+  text-align: center;
+}
+
+.socialIcons li{
+  display: inline-block;
+  border: 2px solid #fff;
+  text-align: center;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+.socialIcons li:hover{
+  transform: rotate(360deg) scale(1.0);
+  transition-duration: 1s;
+}
+.socialIcons a{
+  color: #fff !important;
+  text-decoration: none;
+}
+.socialIcons a:hover{
+  color: #fff !important;
+  text-decoration: none;
+}
+
+.socialIcons i{
+  display: flex;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  min-width: 100%;
+  min-height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.socialIcons .facebookIcon{
+  background-color: #3b5998 !important;
+}
+.socialIcons .mailIcon{
+  background-color: #00FF00 !important;
+}
+.socialIcons .twitterIcon{
+  background-color: #1da1f2 !important;
+}
+.socialIcons .instagramIcon{
+  background-color: #c32aa3 !important;
+}
